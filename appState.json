@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7615c0c3-873b-4c8a-b7e3-e661f2148738": {
+        "id": "7615c0c3-873b-4c8a-b7e3-e661f2148738",
+        "parent": null,
+        "name": "squarewebhook2.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "squarewebhook2.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 19
+        },
+        "config": {
+          "runtime": "python37",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "squarewebhook2"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "0b418b55-8e16-4a01-b977-e46d3411f3a9": {
+        "id": "0b418b55-8e16-4a01-b977-e46d3411f3a9",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "57c68170-0113-4222-8db6-7984bfb7c3bc": {
+        "id": "57c68170-0113-4222-8db6-7984bfb7c3bc",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "7615c0c3-873b-4c8a-b7e3-e661f2148738"
+    ],
+    "currentFileId": "7615c0c3-873b-4c8a-b7e3-e661f2148738",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "squarewebhook",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1594842995819
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "squarewebhook",
+      "url": "https://github.com/nalo9342/squarewebhook"
+    }
+  }
+}
